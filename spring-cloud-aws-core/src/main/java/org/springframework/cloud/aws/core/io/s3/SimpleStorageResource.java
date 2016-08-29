@@ -62,7 +62,7 @@ import java.util.concurrent.Future;
  * @author Alain Sahli
  * @since 1.0
  */
-class SimpleStorageResource extends AbstractResource implements WritableResource {
+public class SimpleStorageResource extends AbstractResource implements WritableResource {
 
 	private final String bucketName;
 	private final String objectName;
